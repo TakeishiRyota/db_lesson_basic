@@ -136,8 +136,8 @@ peopleテーブルから、department_idカラムの値が1であるレコード
 
 SELECT name
 FROM people
-WHERE (gender = 1 AND age BETWEEN 40 AND 50)
-   OR (gender = 2 AND age BETWEEN 20 AND 30);
+WHERE (gender = 1 AND age BETWEEN 40 AND 49)
+   OR (gender = 2 AND age BETWEEN 20 AND 29);
 
 /*Q8 データ取得
   条件:営業部に所属する人だけを年齢の昇順で取得してください。
